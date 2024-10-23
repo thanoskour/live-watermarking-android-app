@@ -28,8 +28,7 @@ Future research could focus on optimizing the algorithm, expanding its use to ot
 7. [Installation](#installation)
 8. [Technologies Used](#technologies-used)
 9. [How to Use](#how-to-use)
-10. [License](#license)
-11. [Contributing](#contributing)
+10. [Contributing](#contributing)
 
 ## Introduction
 In this thesis, we introduce the essential techniques for embedding hidden information in digital images, with a focus on digital watermarking using an Android camera. The objectives are to create a robust real-time watermarking system that ensures the security and authenticity of digital images.
