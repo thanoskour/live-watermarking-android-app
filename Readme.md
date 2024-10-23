@@ -81,8 +81,6 @@ To set up and run the project locally, follow these steps:
 4. The app will embed a watermark into the image based on your input and device-specific information.
 5. View and access the watermarked images in the specified storage directory.
 
-## License
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with any improvements or fixes.
