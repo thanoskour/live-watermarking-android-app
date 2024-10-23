@@ -44,7 +44,7 @@ Performance metrics such as Peak Signal-to-Noise Ratio (PSNR) and Structural Sim
 The thesis concludes that the real-time watermarking system effectively secures digital images from unauthorized use, with future research potential in optimizing the algorithm and extending it to other media types.
 
 ## Full Thesis
-For more detailed information, you can download the full thesis [here](path/to/your/thesis.pdf).
+For more detailed information, you can download the full thesis [here](https://github.com/thanoskour/live-watermarking-android-app/blob/master/FinalReport_4392.pdf).
 
 ## Keywords
 - Image Watermarking
