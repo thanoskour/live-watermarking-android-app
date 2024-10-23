@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="key_watermarking_robustness"
+        android:title="Watermarking Robustness Factor"
+        android:dialogTitle="Enter Watermarking Robustness Factor"
+        android:inputType="number"
+        android:defaultValue="5"
+        android:summary="Set the robustness factor for watermarking" />
+
+</PreferenceScreen>

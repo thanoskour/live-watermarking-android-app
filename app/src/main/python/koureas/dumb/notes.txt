@@ -1,0 +1,6 @@
+1)Use 36 sips -> 32 uuid + 4 input
+2)6x6 blocks
+3)opti v2 algorithm -> FAST
+4)button -> create config file + give 4 input + uuid
+5)read only
+6)read position of grid from file for each block -> καθε φορα που τραβαω φωτο

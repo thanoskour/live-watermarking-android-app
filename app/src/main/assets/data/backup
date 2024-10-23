@@ -1,0 +1,61 @@
+chr1 = [i for i in hash1]
+		chr2 = [j for j in hash2]
+		bits1 = []
+		bits2 = []
+		xored_hash_bits = []
+		for x in range(len(chr1)):
+			if(chr1[x].isalpha()):
+				bi = ''.join(format(self.look_up_hex[chr1[x]], '04b'))
+			else:
+				bi = ''.join(format(int(chr1[x]), '04b'))
+			for b in bi:
+				bits1.append(b)
+		for y in range(len(chr2)):
+			if(chr2[y].isalpha()):
+				bi = ''.join(format(self.look_up_hex[chr2[y]], '04b'))
+			else:
+				bi = ''.join(format(int(chr2[y]), '04b'))
+			for b in bi:
+				bits2.append(b)
+
+		for i in range(len(bits1)):
+			res = int(bits1[i]) ^ int(bits2[i])
+			xored_hash_bits.append(res)
+
+
+		return xored_hash_bits
+
+
+
+
+'''
+
+		for i in range(len(ex_hashes)):
+			if(em_hashes[i] not in ex_hashes):
+				tampered_blocks.append(i)
+				FP.append(i)
+
+		print("Tampered blocks: ",tampered_blocks," ",len(tampered_blocks))
+
+		for i in range(len(maph)):
+			if(maph[i][0] in tampered_blocks):
+				pairs.append((maph[i][0],maph[i][1]))
+		
+		for i in range(len(tampered_blocks)):
+			tampered = tampered_blocks[i]
+			for i in range(len(maph)):
+				if(tampered == maph[i][1]):
+					h1 = ex_hashes[maph[i][1]]
+					h2 = em_hashes[maph[i][0]]
+					if(self.compare_hashes(h1,h2)):
+						print("red hash: ",h2,"","block: ",maph[i][0]," Hash confirmed")
+						print("xre hash: ",h1,"","block: ",maph[i][1]," FP block to be removed")
+						print("-----------------------------------------------------------------------------")
+						print("-----------------------------------------------------------------------------")
+						false_blocks.append(maph[i][1])
+						FP_F.append(maph[i][1])
+
+		for i in range(len(false_blocks)):
+			if(false_blocks[i] in tampered_blocks):
+				tampered_blocks.remove(false_blocks[i])
+		'''
